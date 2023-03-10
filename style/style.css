@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* //------------------------------------SECTION INTRO------------------------------------// */
+.section-intro {
+  text-align: center;
+  margin: 10px 40px;
+}
+.section-intro h1 {
+  font-family: "Syne Tactile", cursive;
+  font-size: 3.5rem;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+.center {
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.container-cards {
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: dense;
+  grid-auto-rows: 480px;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.card {
+  margin: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 10px auto;
+  max-width: 300px;
+}
